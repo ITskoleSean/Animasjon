@@ -1,6 +1,22 @@
+body{
+    background-color: black;
+}
+
 #circleFactory{
     width: 40vw;
     height: 40vh;
     background-color: black;
     min-width: 40%;
 }
+
+ #imgs {
+     position: relative;
+     top: 50vh;
+     left: 10vw;
+ }
+ #FL{
+     position: absolute;
+     top: 18vh;
+     left: 40vw;
+     transform: scaleX(-1);
+ }
