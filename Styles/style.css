@@ -1,0 +1,6 @@
+#circleFactory{
+    width: 40vw;
+    height: 40vh;
+    background-color: black;
+    min-width: 40%;
+}
