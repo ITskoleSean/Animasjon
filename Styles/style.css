@@ -14,9 +14,14 @@ body{
      top: 50vh;
      left: 10vw;
  }
+
  #FL{
      position: absolute;
      top: 18vh;
      left: 40vw;
      transform: scaleX(-1);
  }
+
+h1{
+    color: cornflowerblue;
+}

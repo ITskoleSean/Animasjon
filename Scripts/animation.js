@@ -4,15 +4,15 @@ var text = canvas.getContext('2d');
 var x = canvas.width;
 var y = canvas.height / 2;
 var radius = 8;
-var color = '#abc123';
+var color = '#FFFFFF';
 var flashLight = canvas.getContext('2d');
 var flashLightImage = document.getElementById('FL')
 flashLightImage.style.transform = 'scaleX(-1)';
 
 
 
-const draw = ()=>{
-    if(canvas.getContext){
+const draw = () => {
+    if (canvas.getContext) {
         text.fillText("HEISANN!", 100, 80);
         pen.beginPath();
         pen.arc(x, y, radius, 0, 2 * Math.PI, false);
@@ -26,18 +26,19 @@ const draw = ()=>{
     }
 }
 
-const move = () =>{
-    setInterval(e =>{
-        if(x == -10){
+const move = () => {
+    setInterval(e => {
+        if (x == 10) {
             x = x;
+
         }
-        else{
+        else {
             x = x - 10;
             radius = radius + 2;
             draw();
         }
-        
-}, 100)
+
+    }, 100)
 
 }
 
